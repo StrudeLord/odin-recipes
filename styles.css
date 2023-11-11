@@ -1,0 +1,89 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(138, 138, 138);
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+    background-color: wheat;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-inline: 100px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: wheat;
+    border: 3px wheat;
+    border-style: groove;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    padding: 50px;
+    background-color: rgb(153, 153, 153);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    border: 3px wheat;
+    border-style: groove;
+    border-radius: 5px;
+}
+
+a {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(231, 202, 149);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(245, 222, 179, 0);
+    font-size: 30px;
+    font-weight: 600;
+    background-size: cover;
+    opacity: 0.7;
+    transition: 0.3s;
+    text-shadow: 10px 5px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.stru {
+    background: url("recipes/strudel.jpeg");
+}
+
+.bors {
+    background: url("recipes/borscht.jpeg");
+}
+
+.oliv {
+    background: url("recipes/olivie.jpg");
+}
+
+.phad {
+    background: url("recipes/phadthai.jpg");
+}
+
+a:hover { 
+    background-color: rgba(23, 197, 32, 0.514);
+    color: wheat;
+    opacity: 1; /* Full opacity on hover*/ 
+}
+
+
+
